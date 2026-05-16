@@ -1,0 +1,28 @@
+
+=== EDA FINDINGS — SST-2 ===
+
+Dataset size:
+  Train:      67,349 samples
+  Validation: 872 samples
+
+Class balance:
+  Positive: 37,569 (55.8%)
+  Negative: 29,780 (44.2%)
+  Ratio:    1.26:1
+
+Text characteristics (train):
+  Avg word count:  9.4
+  Median words:    7
+  Max words:       52
+  Min words:       1
+
+Key observations:
+  - SST-2 is slightly imbalanced
+  - Short texts (movie review snippets, not full reviews)
+  - LLM prompts should handle short fragments well
+  - Saved charts to results/
+
+Next steps:
+  - Open GitHub issue if notable imbalance found
+  - Build preprocessing pipeline (Day 3)
+  - Baseline model on these splits (Day 4)
