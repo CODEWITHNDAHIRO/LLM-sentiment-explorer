@@ -6,3 +6,6 @@ __pycache__/
 #virtual environment
 venv/
 env/
+#pytest cache
+.pytest_cache/
+v/cache/
