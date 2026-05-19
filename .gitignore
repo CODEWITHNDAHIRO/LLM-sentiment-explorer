@@ -9,3 +9,4 @@ env/
 #pytest cache
 .pytest_cache/
 v/cache/
+**/__pycache__/
